@@ -1,0 +1,97 @@
+name: Mobile App CI
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'homelink-mobile/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'homelink-mobile/**'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: ./homelink-mobile
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: homelink-mobile/package-lock.json
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Run linter
+      run: npm run lint
+      continue-on-error: true
+    
+    - name: Run tests
+      run: npm test
+      continue-on-error: true
+    
+    - name: Check TypeScript
+      run: npx tsc --noEmit
+      continue-on-error: true
+
+  build-android:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    
+    defaults:
+      run:
+        working-directory: ./homelink-mobile
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Build Android APK
+      run: echo "Build Android APK with EAS"
+      # Add EAS build commands here
+      # npx eas-cli build --platform android --non-interactive
+
+  build-ios:
+    needs: build-and-test
+    runs-on: macos-latest
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    
+    defaults:
+      run:
+        working-directory: ./homelink-mobile
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Build iOS IPA
+      run: echo "Build iOS IPA with EAS"
+      # Add EAS build commands here
+      # npx eas-cli build --platform ios --non-interactive
