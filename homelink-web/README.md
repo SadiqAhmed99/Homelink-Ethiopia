@@ -114,14 +114,19 @@ Scan QR code with Expo Go app
 ✅ Performance analytics  
 
 ### Admin Portal
-✅ Verification queue (3 categories)  
-✅ Worker profile review  
-✅ ID image verification  
-✅ Verification status controls  
-✅ Staff notes system  
-✅ Approve/Reject/Flag actions  
-✅ Audit trail  
-✅ Queue navigation  
+✅ Worker verification queue
+✅ ID verification with image viewing
+✅ Approval workflow
+✅ Staff notes & audit trail
+✅ **Accommodation Center** ⭐ NEW!
+  - Bed management (10 beds, 5 rooms)
+  - Room capacity tracking
+  - Worker check-in/check-out
+  - Activity log
+  - Real-time availability status
+✅ Approve/Reject/Flag actions
+✅ Audit trail
+✅ Queue navigation
 
 ### Mobile App
 ✅ Multi-channel registration  

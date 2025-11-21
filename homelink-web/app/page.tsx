@@ -28,6 +28,11 @@ export default function HomePage() {
               </Button>
             </Link>
           </div>
+          <div className="mt-4 text-center">
+            <Link href="/admin/accommodation" className="text-sm text-white opacity-75 hover:opacity-100 underline">
+              Accommodation Center →
+            </Link>
+          </div>
         </div>
       </header>
 
