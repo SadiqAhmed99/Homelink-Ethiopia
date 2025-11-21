@@ -1,0 +1,174 @@
+{
+    "common": {
+        "appName": "ሆምሊንክ አዲስ",
+        "next": "ቀጣይ",
+        "back": "ተመለስ",
+        "cancel": "ሰርዝ",
+        "save": "አስቀምጥ",
+        "submit": "አስገባ",
+        "continue": "ቀጥል",
+        "done": "ተጠናቀቀ",
+        "loading": "በመጫን ላይ...",
+        "error": "ስህተት",
+        "success": "ተሳክቷል",
+        "required": "ያስፈልጋል",
+        "optional": "አማራጭ"
+    },
+    "registration": {
+        "title": "የሰራተኛ ምዝገባ",
+        "subtitle": "ወደ የተሻለ ስራ ጉዞዎን ይጀምሩ",
+        "welcome": {
+            "title": "እንደ ሆምሊንክ ሰራተኛ ይመዝገቡ",
+            "subtitle": "እንዴት መመዝገብ እንደሚፈልጉ ይምረጡ",
+            "idCapture": "መታወቂያዎን ያንሱ",
+            "idCaptureDesc": "በብሔራዊ መታወቂያዎ ፈጣን ምዝገባ",
+            "voiceCommand": "ድምጽዎን ይጠቀሙ",
+            "voiceCommandDesc": "መረጃዎን ይናገሩ",
+            "manualEntry": "በእጅ ያስገቡ",
+            "manualEntryDesc": "ቅጹን እራስዎ ይሙሉ",
+            "benefits": {
+                "title": "ለምን ሆምሊንክ?",
+                "verified": "የተረጋገጡ ቀጣሪዎች",
+                "safe": "ደህንነቱ የተጠበቀ ምደባ",
+                "support": "የተረጋገጠ ድጋፍ"
+            }
+        },
+        "idCapture": {
+            "title": "ብሔራዊ መታወቂያዎን ያንሱ",
+            "instructions": "መታወቂያዎን በክፈፉ ውስጥ ያስቀምጡ እና ግልጽ ፎቶ ያንሱ",
+            "takePhoto": "ፎቶ አንሳ",
+            "uploadGallery": "ከጋለሪ ስቀል",
+            "processing": "መታወቂያዎን በማስኬድ ላይ...",
+            "confidence": "እምነት",
+            "retake": "እንደገና አንሳ",
+            "switchMethod": "የተለየ ዘዴ ይሞክሩ",
+            "lowConfidence": "መታወቂያዎን በግልጽ ማንበብ አልቻልንም። እባክዎ እንደገና ይሞክሩ ወይም የድምጽ ትእዛዝን ይጠቀሙ።",
+            "fields": {
+                "fullName": "ሙሉ ስም",
+                "idNumber": "የመታወቂያ ቁጥር",
+                "dateOfBirth": "የልደት ቀን",
+                "age": "እድሜ",
+                "gender": "ጾታ",
+                "region": "የክልል ምንጭ",
+                "issueDate": "የተሰጠበት ቀን",
+                "expiryDate": "የሚያበቃበት ቀን"
+            }
+        },
+        "voiceCommand": {
+            "title": "ስለራስዎ ይንገሩን",
+            "instructions": "በግልጽ ይናገሩ። ሙሉ ስምዎን፣ እድሜዎን፣ የክልል ምንጭዎን እና የድንገተኛ ጊዜ የመገኛ መረጃዎን ይናገሩ።",
+            "selectLanguage": "ቋንቋ ይምረጡ",
+            "startRecording": "መቅዳት ጀምር",
+            "stopRecording": "መቅዳትን አቁም",
+            "recording": "በመቅዳት ላይ",
+            "processing": "ድምጽዎን በማስኬድ ላይ...",
+            "transcription": "ግልባጭ",
+            "accuracy": "ትክክለኛነት",
+            "recordAgain": "እንደገና ቅዳ",
+            "switchToId": "ወደ መታወቂያ ቅጂ ቀይር",
+            "noSpeech": "ምንም ንግግር አልተገኘም። እባክዎ እንደገና ይሞክሩ።",
+            "poorQuality": "የድምጽ ጥራት ደካማ ነው። እባክዎ በጸጥታ አካባቢ እንደገና ይሞክሩ።"
+        },
+        "personalInfo": {
+            "title": "የግል መረጃ",
+            "fullName": "ሙሉ ስም",
+            "fullNamePlaceholder": "ሙሉ ስምዎን ያስገቡ",
+            "phone": "ስልክ ቁጥር",
+            "phonePlaceholder": "09XXXXXXXX",
+            "region": "የክልል ምንጭ",
+            "regionPlaceholder": "ክልልዎን ይምረጡ",
+            "emergencyContact": "የድንገተኛ ጊዜ የመገኛ ስም",
+            "emergencyContactPlaceholder": "የድንገተኛ ጊዜ የመገኛ ስም ያስገቡ",
+            "emergencyPhone": "የድንገተኛ ጊዜ የመገኛ ስልክ",
+            "emergencyPhonePlaceholder": "09XXXXXXXX"
+        },
+        "ageVerification": {
+            "title": "የእድሜ ማረጋገጫ",
+            "verified": "እድሜ ተረጋግጧል",
+            "verifiedMessage": "የእድሜ መስፈርቱን ያሟላሉ (18+)",
+            "notMet": "የእድሜ መስፈርት አልተሟላም",
+            "notMetMessage": "ሆምሊንክ ከ18 ዓመት በላይ የሆኑ ሰራተኞችን ብቻ ይቀበላል።",
+            "contactSupport": "ድጋፍ ያግኙ",
+            "calculating": "እድሜዎን በማረጋገጥ ላይ..."
+        },
+        "emergencyContact": {
+            "title": "የድንገተኛ ጊዜ መገኛዎን ያረጋግጡ",
+            "instructions": "የድንገተኛ ጊዜ መገኛዎ ከቤት ክልልዎ መሆናቸውን ለማረጋገጥ ብሔራዊ መታወቂያቸውን ያቅርቡ።",
+            "regionMatch": "የድንገተኛ ጊዜ መገኛ ተረጋግጧል",
+            "regionMatchMessage": "የድንገተኛ ጊዜ መገኛው ክልል ከቤት ክልልዎ ጋር ይዛመዳል።",
+            "regionMismatch": "ክልል አይዛመድም",
+            "regionMismatchMessage": "የድንገተኛ ጊዜ መገኛው ክልል ከቤት ክልልዎ ጋር አይዛመድም። እባክዎ ከቤት አካባቢዎ መገኛ ያቅርቡ።",
+            "tryAgain": "እንደገና ይሞክሩ"
+        },
+        "skills": {
+            "title": "ክህሎቶች እና ልምድ",
+            "selectSkills": "ክህሎቶችዎን ይምረጡ",
+            "selectAtLeastOne": "እባክዎ ቢያንስ አንድ ክህሎት ይምረጡ",
+            "experience": "የልምድ ደረጃ",
+            "experienceLevels": {
+                "none": "የለም",
+                "oneToTwo": "1-2 ዓመታት",
+                "threeToFive": "3-5 ዓመታት",
+                "fivePlus": "5+ ዓመታት"
+            },
+            "skillsList": {
+                "childcare": "የልጅ እንክብካቤ",
+                "cooking": "ምግብ ማብሰል",
+                "cleaning": "ማጽዳት",
+                "laundry": "የልብስ ማጠቢያ",
+                "elderlyCare": "የአረጋውያን እንክብካቤ",
+                "other": "ሌላ"
+            },
+            "otherSkills": "ሌሎች ክህሎቶች",
+            "otherSkillsPlaceholder": "ለምሳሌ፣ እንጀራ መጋገር፣ መሰረታዊ እንግሊዝኛ፣ ወዘተ።"
+        },
+        "preferences": {
+            "title": "የስራ ምርጫዎች",
+            "workType": "የስራ አይነት",
+            "workTypes": {
+                "liveIn": "በቤት ውስጥ መኖር",
+                "liveOut": "ከቤት ውጭ መኖር",
+                "noPreference": "ምርጫ የለም"
+            },
+            "preferredLocation": "በአዲስ አበባ የሚመረጥ አካባቢ",
+            "preferredLocationPlaceholder": "ለምሳሌ፣ ቦሌ፣ ፒያሳ፣ ወዘተ።",
+            "availability": "ተገኝነት"
+        },
+        "payment": {
+            "title": "የምዝገባ ክፍያ",
+            "amount": "የምዝገባ ክፍያ",
+            "amountValue": "500 ብር",
+            "selectMethod": "የክፍያ ዘዴ ይምረጡ",
+            "methods": {
+                "telebirr": "ቴሌብር",
+                "telecom": "ቴሌኮም",
+                "dashen": "ዳሽን ባንክ"
+            },
+            "payNow": "አሁን ክፈል",
+            "securePayment": "ክፍያዎ ደህንነቱ የተጠበቀ ነው",
+            "processing": "ክፍያን በማስኬድ ላይ..."
+        },
+        "confirmation": {
+            "title": "ምዝገባ ተጠናቀቀ",
+            "message": "መገለጫዎ በግምገማ ላይ ነው። በWhatsApp እና በኤስኤምኤስ ማሻሻያዎችን ይቀበላሉ።",
+            "viewProfile": "መገለጫዬን ይመልከቱ",
+            "close": "ዝጋ",
+            "nextSteps": {
+                "title": "ቀጣዩ ምንድን ነው?",
+                "review": "ቡድናችን መገለጫዎን ይገመግማል",
+                "notification": "ሲፀድቅ ማሳወቂያ ይቀበላሉ",
+                "training": "የእምነት ነጥብዎን ለማሳደግ የስልጠና ሞጁሎችን ያጠናቅቁ"
+            }
+        }
+    },
+    "errors": {
+        "required": "ይህ መስክ ያስፈልጋል",
+        "invalidPhone": "እባክዎ ትክክለኛ ስልክ ቁጥር ያስገቡ",
+        "invalidEmail": "እባክዎ ትክክለኛ ኢሜይል ያስገቡ",
+        "networkError": "የኔትወርክ ስህተት። እባክዎ ግንኙነትዎን ያረጋግጡ።",
+        "genericError": "የሆነ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።"
+    },
+    "security": {
+        "dataSecure": "መረጃዎ ደህንነቱ የተጠበቀ እና የተመሰጠረ ነው"
+    }
+}

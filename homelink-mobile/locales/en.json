@@ -1,0 +1,174 @@
+{
+    "common": {
+        "appName": "HomeLink Addis",
+        "next": "Next",
+        "back": "Back",
+        "cancel": "Cancel",
+        "save": "Save",
+        "submit": "Submit",
+        "continue": "Continue",
+        "done": "Done",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "required": "Required",
+        "optional": "Optional"
+    },
+    "registration": {
+        "title": "Worker Registration",
+        "subtitle": "Start your journey to better employment",
+        "welcome": {
+            "title": "Register as a HomeLink Worker",
+            "subtitle": "Choose how you'd like to register",
+            "idCapture": "Capture Your ID",
+            "idCaptureDesc": "Quick registration using your National ID",
+            "voiceCommand": "Use Your Voice",
+            "voiceCommandDesc": "Speak your information",
+            "manualEntry": "Enter Manually",
+            "manualEntryDesc": "Fill in the form yourself",
+            "benefits": {
+                "title": "Why HomeLink?",
+                "verified": "Verified employers",
+                "safe": "Safe placements",
+                "support": "Guaranteed support"
+            }
+        },
+        "idCapture": {
+            "title": "Capture Your National ID",
+            "instructions": "Position your ID within the frame and take a clear photo",
+            "takePhoto": "Take Photo",
+            "uploadGallery": "Upload from Gallery",
+            "processing": "Processing your ID...",
+            "confidence": "Confidence",
+            "retake": "Retake Photo",
+            "switchMethod": "Try Different Method",
+            "lowConfidence": "We couldn't read your ID clearly. Please try again or use voice command.",
+            "fields": {
+                "fullName": "Full Name",
+                "idNumber": "ID Number",
+                "dateOfBirth": "Date of Birth",
+                "age": "Age",
+                "gender": "Gender",
+                "region": "Regional Origin",
+                "issueDate": "Issue Date",
+                "expiryDate": "Expiry Date"
+            }
+        },
+        "voiceCommand": {
+            "title": "Tell Us About Yourself",
+            "instructions": "Speak clearly. Say your full name, age, regional origin, and emergency contact information.",
+            "selectLanguage": "Select Language",
+            "startRecording": "Start Recording",
+            "stopRecording": "Stop Recording",
+            "recording": "Recording",
+            "processing": "Processing your voice...",
+            "transcription": "Transcription",
+            "accuracy": "Accuracy",
+            "recordAgain": "Record Again",
+            "switchToId": "Switch to ID Capture",
+            "noSpeech": "No speech detected. Please try again.",
+            "poorQuality": "Audio quality is poor. Please try again in a quieter environment."
+        },
+        "personalInfo": {
+            "title": "Personal Information",
+            "fullName": "Full Name",
+            "fullNamePlaceholder": "Enter your full name",
+            "phone": "Phone Number",
+            "phonePlaceholder": "09XXXXXXXX",
+            "region": "Regional Origin",
+            "regionPlaceholder": "Select your region",
+            "emergencyContact": "Emergency Contact Name",
+            "emergencyContactPlaceholder": "Enter emergency contact name",
+            "emergencyPhone": "Emergency Contact Phone",
+            "emergencyPhonePlaceholder": "09XXXXXXXX"
+        },
+        "ageVerification": {
+            "title": "Age Verification",
+            "verified": "Age Verified",
+            "verifiedMessage": "You meet the age requirement (18+)",
+            "notMet": "Age Requirement Not Met",
+            "notMetMessage": "HomeLink only accepts workers 18 years or older.",
+            "contactSupport": "Contact Support",
+            "calculating": "Verifying your age..."
+        },
+        "emergencyContact": {
+            "title": "Verify Your Emergency Contact",
+            "instructions": "Provide your emergency contact's National ID to confirm they are from your home region.",
+            "regionMatch": "Emergency Contact Verified",
+            "regionMatchMessage": "The emergency contact's region matches your home region.",
+            "regionMismatch": "Region Mismatch",
+            "regionMismatchMessage": "The emergency contact's region doesn't match your home region. Please provide a contact from your home area.",
+            "tryAgain": "Try Again"
+        },
+        "skills": {
+            "title": "Skills & Experience",
+            "selectSkills": "Select Your Skills",
+            "selectAtLeastOne": "Please select at least one skill",
+            "experience": "Experience Level",
+            "experienceLevels": {
+                "none": "None",
+                "oneToTwo": "1-2 years",
+                "threeToFive": "3-5 years",
+                "fivePlus": "5+ years"
+            },
+            "skillsList": {
+                "childcare": "Childcare",
+                "cooking": "Cooking",
+                "cleaning": "Cleaning",
+                "laundry": "Laundry",
+                "elderlyCare": "Elderly Care",
+                "other": "Other"
+            },
+            "otherSkills": "Other Skills",
+            "otherSkillsPlaceholder": "e.g., Can bake injera, Basic English, etc."
+        },
+        "preferences": {
+            "title": "Work Preferences",
+            "workType": "Work Type",
+            "workTypes": {
+                "liveIn": "Live-in",
+                "liveOut": "Live-out",
+                "noPreference": "No preference"
+            },
+            "preferredLocation": "Preferred Location in Addis",
+            "preferredLocationPlaceholder": "e.g., Bole, Piassa, etc.",
+            "availability": "Availability"
+        },
+        "payment": {
+            "title": "Registration Payment",
+            "amount": "Registration Fee",
+            "amountValue": "500 ETB",
+            "selectMethod": "Select Payment Method",
+            "methods": {
+                "telebirr": "TeleBirr",
+                "telecom": "Telecom",
+                "dashen": "Dashen Bank"
+            },
+            "payNow": "Pay Now",
+            "securePayment": "Your payment is secure",
+            "processing": "Processing payment..."
+        },
+        "confirmation": {
+            "title": "Registration Complete",
+            "message": "Your profile is under review. You'll receive updates via WhatsApp and SMS.",
+            "viewProfile": "View My Profile",
+            "close": "Close",
+            "nextSteps": {
+                "title": "What's Next?",
+                "review": "Our team will review your profile",
+                "notification": "You'll receive a notification when approved",
+                "training": "Complete training modules to boost your trust score"
+            }
+        }
+    },
+    "errors": {
+        "required": "This field is required",
+        "invalidPhone": "Please enter a valid phone number",
+        "invalidEmail": "Please enter a valid email address",
+        "networkError": "Network error. Please check your connection.",
+        "genericError": "Something went wrong. Please try again."
+    },
+    "security": {
+        "dataSecure": "Your data is secure and encrypted"
+    }
+}
