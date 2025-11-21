@@ -21,7 +21,10 @@ export default function WelcomeScreen() {
     const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
 
     const toggleLanguage = async () => {
-        const newLang = currentLanguage === 'en' ? 'am' : 'en';
+        const languages = ['en', 'am', 'om', 'ti'];
+        const currentIndex = languages.indexOf(currentLanguage);
+        const nextIndex = (currentIndex + 1) % languages.length;
+        const newLang = languages[nextIndex];
         await i18n.changeLanguage(newLang);
         await languagePreference.save(newLang);
         setCurrentLanguage(newLang);
@@ -32,7 +35,10 @@ export default function WelcomeScreen() {
             {/* Language Toggle */}
             <TouchableOpacity style={styles.languageToggle} onPress={toggleLanguage}>
                 <Text style={styles.languageText}>
-                    {currentLanguage === 'en' ? 'አማርኛ' : 'English'}
+                    {currentLanguage === 'en' ? 'አማርኛ / Afaan Oromoo / ትግርኛ' :
+                        currentLanguage === 'am' ? 'English / Afaan Oromoo / ትግርኛ' :
+                            currentLanguage === 'om' ? 'English / አማርኛ / ትግርኛ' :
+                                'English / አማርኛ / Afaan Oromoo'}
                 </Text>
             </TouchableOpacity>
 

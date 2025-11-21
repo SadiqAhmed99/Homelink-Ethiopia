@@ -1,0 +1,82 @@
+{
+    "common": {
+        "appName": "HomeLink Addis",
+        "search": "ድለ",
+        "filter": "ፍልተር",
+        "sort": "ደርድር",
+        "viewProfile": "መገለጺ ርአ",
+        "hire": "ቀጽር",
+        "shortlist": "ናብ ሓጺር ዝርዝር ውሰኽ",
+        "export": "ኣውጽእ",
+        "approve": "ፍቐድ",
+        "reject": "ንጸግ",
+        "save": "ዓቅብ",
+        "cancel": "ሰርዝ",
+        "submit": "ስደድ",
+        "loading": "የጽዕን ኣሎ...",
+        "noResults": "ውጽኢት ኣይተረኽበን",
+        "error": "ጌጋ ተፈጢሩ",
+        "success": "ዓወት!",
+        "language": "ቋንቋ"
+    },
+    "employer": {
+        "dashboard": "ዳሽቦርድ",
+        "findWorkers": "ሰራሕተኛታት ድለ",
+        "myHires": "ሰራሕተኛታተይ",
+        "messages": "መልእኽትታት",
+        "settings": "ምቕራጻት"
+    },
+    "agency": {
+        "dashboard": "ዳሽቦርድ",
+        "searchWorkers": "ሰራሕተኛታት ድለ",
+        "shortlist": "ሓጺር ዝርዝር",
+        "placements": "ምትእትታው",
+        "bulkExport": "ብብዝሒ ምውጻእ"
+    },
+    "admin": {
+        "dashboard": "ዳሽቦርድ",
+        "verification": "ምርግጋጽ",
+        "accommodation": "መንበሪ ቤት",
+        "reports": "ጸብጻባት",
+        "pending": "ተጸባቢ",
+        "approved": "ተፈቒዱ",
+        "rejected": "ተነጺጉ"
+    },
+    "worker": {
+        "profile": "መገለጺ",
+        "skills": "ክእለት",
+        "experience": "ተመኩሮ",
+        "availability": "ምህላው",
+        "region": "ዞባ",
+        "age": "ዕድመ",
+        "rating": "ደረጃ",
+        "status": "ኩነታት",
+        "documents": "ሰነዳት",
+        "verified": "ተረጋጊጹ",
+        "notVerified": "ኣይተረጋገጸን"
+    },
+    "filters": {
+        "all": "ኩሉ",
+        "skills": "ክእለት",
+        "experience": "ተመኩሮ",
+        "region": "ዞባ",
+        "availability": "ምህላው",
+        "ageRange": "ደረጃ ዕድመ",
+        "rating": "ደረጃ",
+        "clearAll": "ኩሉ ጽርግ"
+    },
+    "accommodation": {
+        "title": "መንበሪ ቤት",
+        "bedManagement": "ምሕደራ ዓራት",
+        "checkIn": "ምእታው",
+        "checkOut": "ምውጻእ",
+        "totalBeds": "ጠቕላላ ዓራት",
+        "occupied": "ተወሲዱ",
+        "available": "ዝርከብ",
+        "maintenance": "ጽገና",
+        "room": "ክፍሊ",
+        "bed": "ዓራት",
+        "assignWorker": "ሰራሕተኛ ምድባ",
+        "activityLog": "መዝገብ ንጥፈታት"
+    }
+}

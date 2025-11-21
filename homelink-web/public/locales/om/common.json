@@ -1,0 +1,82 @@
+{
+    "common": {
+        "appName": "HomeLink Addis",
+        "search": "Barbaadi",
+        "filter": "Gingilchi",
+        "sort": "Tartiiba",
+        "viewProfile": "Piroofaayila Ilaali",
+        "hire": "Qaxari",
+        "shortlist": "Tarree Gabaabaa Itti Dabali",
+        "export": "Gadi Baasi",
+        "approve": "Ragga'i",
+        "reject": "Didi",
+        "save": "Olkaa'i",
+        "cancel": "Haquu",
+        "submit": "Erguu",
+        "loading": "Fe'aa jira...",
+        "noResults": "Bu'aan hin argamne",
+        "error": "Dogoggora uumameera",
+        "success": "Milkaa'ina!",
+        "language": "Afaan"
+    },
+    "employer": {
+        "dashboard": "Gabatee",
+        "findWorkers": "Hojjettota Barbaadi",
+        "myHires": "Hojjettota Koo",
+        "messages": "Ergaawwan",
+        "settings": "Qindaa'ina"
+    },
+    "agency": {
+        "dashboard": "Gabatee",
+        "searchWorkers": "Hojjettota Barbaadi",
+        "shortlist": "Tarree Gabaabaa",
+        "placements": "Bakka Hojii",
+        "bulkExport": "Baay'inaan Gadi Baasuu"
+    },
+    "admin": {
+        "dashboard": "Gabatee",
+        "verification": "Mirkaneessa",
+        "accommodation": "Bakka Jireenyaa",
+        "reports": "Gabaasawwan",
+        "pending": "Eegaa jiru",
+        "approved": "Ragga'e",
+        "rejected": "Didame"
+    },
+    "worker": {
+        "profile": "Piroofaayila",
+        "skills": "Dandeettii",
+        "experience": "Muuxannoo",
+        "availability": "Argamuu",
+        "region": "Naannoo",
+        "age": "Umurii",
+        "rating": "Qeenxee",
+        "status": "Haala",
+        "documents": "Sanadoota",
+        "verified": "Mirkaneeffameera",
+        "notVerified": "Hin mirkaneeffamne"
+    },
+    "filters": {
+        "all": "Hunda",
+        "skills": "Dandeettii",
+        "experience": "Muuxannoo",
+        "region": "Naannoo",
+        "availability": "Argamuu",
+        "ageRange": "Hangii Umurii",
+        "rating": "Qeenxee",
+        "clearAll": "Hunda Qulqulleessi"
+    },
+    "accommodation": {
+        "title": "Bakka Jireenyaa",
+        "bedManagement": "Bulchiinsa Siree",
+        "checkIn": "Seenuu",
+        "checkOut": "Ba'uu",
+        "totalBeds": "Siree Hunda",
+        "occupied": "Kan Qabame",
+        "available": "Kan Jiru",
+        "maintenance": "Suphaa Jala",
+        "room": "Kutaa",
+        "bed": "Siree",
+        "assignWorker": "Hojjetaa Ramadi",
+        "activityLog": "Seenaa Socho'ina"
+    }
+}

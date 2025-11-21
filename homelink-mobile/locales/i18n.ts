@@ -2,6 +2,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import en from './en.json';
 import am from './am.json';
+import om from './om.json';
+import ti from './ti.json';
 import { languagePreference } from '../services/storage';
 
 // Initialize i18n
@@ -14,6 +16,8 @@ const initI18n = async () => {
             resources: {
                 en: { translation: en },
                 am: { translation: am },
+                om: { translation: om },
+                ti: { translation: ti },
             },
             lng: savedLanguage,
             fallbackLng: 'en',

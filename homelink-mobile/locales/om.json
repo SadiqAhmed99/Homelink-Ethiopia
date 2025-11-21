@@ -1,0 +1,174 @@
+{
+    "common": {
+        "appName": "HomeLink Addis",
+        "next": "Itti Aanuu",
+        "back": "Duubatti",
+        "cancel": "Haquu",
+        "save": "Olkaa'uu",
+        "submit": "Erguu",
+        "continue": "Itti Fufuu",
+        "done": "Xumurameera",
+        "loading": "Fe'aa jira...",
+        "error": "Dogoggora",
+        "success": "Milkaa'ina",
+        "required": "Barbaachisaa",
+        "optional": "Filannoo"
+    },
+    "registration": {
+        "title": "Galmee Hojjetaa",
+        "subtitle": "Hojii gaarii argachuuf imala kee jalqabi",
+        "welcome": {
+            "title": "Akka Hojjetaa HomeLink Galmaa'i",
+            "subtitle": "Akkaataa galmaa'uu barbaaddu filadhu",
+            "idCapture": "Eenyummaa Kee Kaasi",
+            "idCaptureDesc": "Eenyummaa Biyyoolessaa fayyadamuun saffisaan galmaa'uu",
+            "voiceCommand": "Sagalee Kee Fayyadami",
+            "voiceCommandDesc": "Odeeffannoo kee dubbadhu",
+            "manualEntry": "Harkaan Galchi",
+            "manualEntryDesc": "Unka mataa keetiin guuti",
+            "benefits": {
+                "title": "Maaliif HomeLink?",
+                "verified": "Hojjechiistota mirkaneeffaman",
+                "safe": "Bakka hojii nageenya qabu",
+                "support": "Deeggarsa mirkaneeffame"
+            }
+        },
+        "idCapture": {
+            "title": "Eenyummaa Biyyoolessaa Kee Kaasi",
+            "instructions": "Eenyummaa kee siree keessatti qindeessiitii suuraa ifa ta'e kaasi",
+            "takePhoto": "Suuraa Kaasi",
+            "uploadGallery": "Kuusaa Suuraa irraa Fe'i",
+            "processing": "Eenyummaa kee qorachaa jira...",
+            "confidence": "Amanamummaa",
+            "retake": "Irra Deebi'ii Kaasi",
+            "switchMethod": "Mala Biraa Yaali",
+            "lowConfidence": "Eenyummaa kee ifaan dubbisuu hin dandeenye. Maaloo irra deebi'ii yaalii ykn sagalee fayyadami.",
+            "fields": {
+                "fullName": "Maqaa Guutuu",
+                "idNumber": "Lakkoofsa Eenyummaa",
+                "dateOfBirth": "Guyyaa Dhaloota",
+                "age": "Umurii",
+                "gender": "Saala",
+                "region": "Naannoo Dhalootaa",
+                "issueDate": "Guyyaa Kenname",
+                "expiryDate": "Guyyaa Xumuraa"
+            }
+        },
+        "voiceCommand": {
+            "title": "Waa'ee Kee Nutti Himi",
+            "instructions": "Ifaan dubbadhu. Maqaa kee guutuu, umurii, naannoo dhalootaa fi odeeffannoo nama balaa yeroo argamu dubbadhu.",
+            "selectLanguage": "Afaan Filadhu",
+            "startRecording": "Waraabbii Jalqabi",
+            "stopRecording": "Waraabbii Dhaabi",
+            "recording": "Waraabaa jira",
+            "processing": "Sagalee kee qorachaa jira...",
+            "transcription": "Barreeffama",
+            "accuracy": "Sirrii Ta'uu",
+            "recordAgain": "Irra Deebi'ii Waraabi",
+            "switchToId": "Gara Kaasuu Eenyummaatti Ce'i",
+            "noSpeech": "Sagaleen hin argamne. Maaloo irra deebi'ii yaali.",
+            "poorQuality": "Qulqullinni sagalee gadhee dha. Maaloo bakka tasgabbaa'aa ta'etti irra deebi'ii yaali."
+        },
+        "personalInfo": {
+            "title": "Odeeffannoo Dhuunfaa",
+            "fullName": "Maqaa Guutuu",
+            "fullNamePlaceholder": "Maqaa kee guutuu galchi",
+            "phone": "Lakkoofsa Bilbilaa",
+            "phonePlaceholder": "09XXXXXXXX",
+            "region": "Naannoo Dhalootaa",
+            "regionPlaceholder": "Naannoo kee filadhu",
+            "emergencyContact": "Maqaa Nama Balaa Yeroo Argamu",
+            "emergencyContactPlaceholder": "Maqaa nama balaa yeroo argamu galchi",
+            "emergencyPhone": "Bilbila Nama Balaa Yeroo Argamu",
+            "emergencyPhonePlaceholder": "09XXXXXXXX"
+        },
+        "ageVerification": {
+            "title": "Mirkaneessa Umurii",
+            "verified": "Umuriin Mirkaneeffameera",
+            "verifiedMessage": "Ulaagaa umurii (18+) guutteetta",
+            "notMet": "Ulaagaan Umurii Hin Guutamne",
+            "notMetMessage": "HomeLink hojjettota waggaa 18 fi isaa ol qofa fudhata.",
+            "contactSupport": "Deeggarsa Quunnamuu",
+            "calculating": "Umurii kee mirkaneessaa jira..."
+        },
+        "emergencyContact": {
+            "title": "Nama Balaa Yeroo Argamu Mirkaneessi",
+            "instructions": "Eenyummaa Biyyoolessaa nama balaa yeroo argamu kenni akka naannoo kee waliin walsimuu mirkaneessuuf.",
+            "regionMatch": "Namni Balaa Yeroo Argamu Mirkaneeffameera",
+            "regionMatchMessage": "Naannoon nama balaa yeroo argamu naannoo kee waliin wal sima.",
+            "regionMismatch": "Naannoon Hin Walsimne",
+            "regionMismatchMessage": "Naannoon nama balaa yeroo argamu naannoo kee waliin hin walsimne. Maaloo nama naannoo kee irraa kenni.",
+            "tryAgain": "Irra Deebi'ii Yaali"
+        },
+        "skills": {
+            "title": "Dandeettii fi Muuxannoo",
+            "selectSkills": "Dandeettii Kee Filadhu",
+            "selectAtLeastOne": "Maaloo dandeettii tokko yoo xiqqaate filadhu",
+            "experience": "Sadarkaa Muuxannoo",
+            "experienceLevels": {
+                "none": "Hin qabu",
+                "oneToTwo": "Waggaa 1-2",
+                "threeToFive": "Waggaa 3-5",
+                "fivePlus": "Waggaa 5+"
+            },
+            "skillsList": {
+                "childcare": "Kunuunsa Daa'immanii",
+                "cooking": "Nyaata Bilcheessuu",
+                "cleaning": "Qulqulleessuu",
+                "laundry": "Uffata Miiccuu",
+                "elderlyCare": "Kunuunsa Jaarsolii",
+                "other": "Kan Biraa"
+            },
+            "otherSkills": "Dandeettii Biraa",
+            "otherSkillsPlaceholder": "Fkn., Injera tolchuu nan danda'a, Ingiliffaa bu'uuraa, kkf."
+        },
+        "preferences": {
+            "title": "Filannoo Hojii",
+            "workType": "Gosa Hojii",
+            "workTypes": {
+                "liveIn": "Mana keessa jiraachuu",
+                "liveOut": "Mana ala jiraachuu",
+                "noPreference": "Filannoo hin qabu"
+            },
+            "preferredLocation": "Bakka Filannoo Finfinnee Keessaa",
+            "preferredLocationPlaceholder": "Fkn., Bole, Piassa, kkf.",
+            "availability": "Argamuu"
+        },
+        "payment": {
+            "title": "Kaffaltii Galmee",
+            "amount": "Kaffaltii Galmee",
+            "amountValue": "Qarshii 500",
+            "selectMethod": "Mala Kaffaltii Filadhu",
+            "methods": {
+                "telebirr": "TeleBirr",
+                "telecom": "Telecom",
+                "dashen": "Baankii Dashen"
+            },
+            "payNow": "Amma Kaffali",
+            "securePayment": "Kaffaltiin kee nageenya qaba",
+            "processing": "Kaffaltii qorachaa jira..."
+        },
+        "confirmation": {
+            "title": "Galmi Xumurameera",
+            "message": "Piroofaayiliin kee gamaaggama jala jira. WhatsApp fi SMS'n odeeffannoo ni argattu.",
+            "viewProfile": "Piroofaayila Koo Ilaali",
+            "close": "Cufi",
+            "nextSteps": {
+                "title": "Itti Aanee Maal?",
+                "review": "Gareen keenya piroofaayila kee ni gamaaggama",
+                "notification": "Yeroo ragga'e beeksisa ni argattu",
+                "training": "Qeenxee amanamummaa kee guddisuf leenjii xumuri"
+            }
+        }
+    },
+    "errors": {
+        "required": "Dirreen kun barbaachisaa dha",
+        "invalidPhone": "Maaloo lakkoofsa bilbilaa sirrii ta'e galchi",
+        "invalidEmail": "Maaloo imeelii sirrii ta'e galchi",
+        "networkError": "Dogoggora networkii. Maaloo walitti dhufeenya kee mirkaneessi.",
+        "genericError": "Wanti tokko dogoggoree jira. Maaloo irra deebi'ii yaali."
+    },
+    "security": {
+        "dataSecure": "Daataan kee nageenya qabaa fi icciitiin eegameera"
+    }
+}

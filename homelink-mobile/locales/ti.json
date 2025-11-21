@@ -1,0 +1,174 @@
+{
+    "common": {
+        "appName": "HomeLink Addis",
+        "next": "ቀጺሉ",
+        "back": "ድሕሪት",
+        "cancel": "ሰርዝ",
+        "save": "ዓቅብ",
+        "submit": "ስደድ",
+        "continue": "ቀጽል",
+        "done": "ተወዲኡ",
+        "loading": "የጽዕን ኣሎ...",
+        "error": "ጌጋ",
+        "success": "ዓወት",
+        "required": "የድሊ",
+        "optional": "ምርጫ"
+    },
+    "registration": {
+        "title": "ምዝገባ ሰራሕተኛ",
+        "subtitle": "ናብ ዝሓሸ ስራሕ ዘብጽሕ ጉዕዞኻ ጀምር",
+        "welcome": {
+            "title": "ከም ሰራሕተኛ HomeLink ተመዝገብ",
+            "subtitle": "ብኸመይ ክትምዝገብ ከምዝደለኻ ምረጽ",
+            "idCapture": "መንነትካ ስእሊ ውሰድ",
+            "idCaptureDesc": "ብሃገራዊ መንነትካ ብቕልጡፍ ምዝገባ",
+            "voiceCommand": "ድምጽኻ ተጠቐም",
+            "voiceCommandDesc": "ሓበሬታኻ ተዛረብ",
+            "manualEntry": "ብኢድካ ኣእቱ",
+            "manualEntryDesc": "ፎርም ባዕልኻ መልእ",
+            "benefits": {
+                "title": "ስለምንታይ HomeLink?",
+                "verified": "ዝተረጋገጹ ኣሰሪሖም",
+                "safe": "ውሑስ ምትእትታው",
+                "support": "ዝተረጋገጸ ደገፍ"
+            }
+        },
+        "idCapture": {
+            "title": "ሃገራዊ መንነትካ ስእሊ ውሰድ",
+            "instructions": "መንነትካ ኣብ ውሽጢ ፍሬም ኣቐሚጥካ ንጹር ስእሊ ውሰድ",
+            "takePhoto": "ስእሊ ውሰድ",
+            "uploadGallery": "ካብ ጋለሪ ኣጽዕን",
+            "processing": "መንነትካ የሰርሕ ኣሎ...",
+            "confidence": "እምነት",
+            "retake": "ዳግም ስእሊ ውሰድ",
+            "switchMethod": "ካልእ ኣገባብ ፈትን",
+            "lowConfidence": "መንነትካ ብንጹር ክንነብቦ ኣይከኣልናን። በጃኻ ዳግም ፈትን ወይ ድምጺ ተጠቐም።",
+            "fields": {
+                "fullName": "ምሉእ ስም",
+                "idNumber": "ቁጽሪ መንነት",
+                "dateOfBirth": "ዕለት ልደት",
+                "age": "ዕድመ",
+                "gender": "ጾታ",
+                "region": "ዞባ ልደት",
+                "issueDate": "ዕለት ምሃብ",
+                "expiryDate": "ዕለት ምውዳእ"
+            }
+        },
+        "voiceCommand": {
+            "title": "ብዛዕባኻ ንገረና",
+            "instructions": "ብንጹር ተዛረብ። ምሉእ ስምካ፡ ዕድመኻ፡ ዞባ ልደትካን ሓበሬታ ናይ ህጹጽ ርክብን ተዛረብ።",
+            "selectLanguage": "ቋንቋ ምረጽ",
+            "startRecording": "ምቕራጽ ጀምር",
+            "stopRecording": "ምቕራጽ ደው በል",
+            "recording": "የቕርጽ ኣሎ",
+            "processing": "ድምጽኻ የሰርሕ ኣሎ...",
+            "transcription": "ጽሑፍ",
+            "accuracy": "ትኽክለኛነት",
+            "recordAgain": "ዳግም ቐርጽ",
+            "switchToId": "ናብ ምውሳድ መንነት ቀይር",
+            "noSpeech": "ዘረባ ኣይተረኽበን። በጃኻ ዳግም ፈትን።",
+            "poorQuality": "ጽሬት ድምጺ ድኹም እዩ። በጃኻ ኣብ ዝሰለመ ቦታ ዳግም ፈትን።"
+        },
+        "personalInfo": {
+            "title": "ውልቃዊ ሓበሬታ",
+            "fullName": "ምሉእ ስም",
+            "fullNamePlaceholder": "ምሉእ ስምካ ኣእቱ",
+            "phone": "ቁጽሪ ተሌፎን",
+            "phonePlaceholder": "09XXXXXXXX",
+            "region": "ዞባ ልደት",
+            "regionPlaceholder": "ዞባኻ ምረጽ",
+            "emergencyContact": "ስም ናይ ህጹጽ ርክብ",
+            "emergencyContactPlaceholder": "ስም ናይ ህጹጽ ርክብ ኣእቱ",
+            "emergencyPhone": "ተሌፎን ናይ ህጹጽ ርክብ",
+            "emergencyPhonePlaceholder": "09XXXXXXXX"
+        },
+        "ageVerification": {
+            "title": "ምርግጋጽ ዕድመ",
+            "verified": "ዕድመ ተረጋጊጹ",
+            "verifiedMessage": "ረቛሒ ዕድመ (18+) ኣማሊእካ",
+            "notMet": "ረቛሒ ዕድመ ኣይተማልአን",
+            "notMetMessage": "HomeLink ሰራሕተኛታት 18 ዓመትን ልዕሊኡን ጥራይ ይቕበል።",
+            "contactSupport": "ደገፍ ርኸብ",
+            "calculating": "ዕድመኻ የረጋግጽ ኣሎ..."
+        },
+        "emergencyContact": {
+            "title": "ናይ ህጹጽ ርክብካ ኣረጋግጽ",
+            "instructions": "ሃገራዊ መንነት ናይ ህጹጽ ርክብካ ሃብ ካብ ዞባ ገዛእካ ምዃኑ ንምርግጋጽ።",
+            "regionMatch": "ናይ ህጹጽ ርክብ ተረጋጊጹ",
+            "regionMatchMessage": "ዞባ ናይ ህጹጽ ርክብ ምስ ዞባ ገዛእካ ይሰማማዕ።",
+            "regionMismatch": "ዞባ ኣይሰማማዕን",
+            "regionMismatchMessage": "ዞባ ናይ ህጹጽ ርክብ ምስ ዞባ ገዛእካ ኣይሰማማዕን። በጃኻ ካብ ከባቢኻ ርክብ ሃብ።",
+            "tryAgain": "ዳግም ፈትን"
+        },
+        "skills": {
+            "title": "ክእለትን ተመኩሮን",
+            "selectSkills": "ክእለትካ ምረጽ",
+            "selectAtLeastOne": "በጃኻ ንሓደ ክእለት ኣነጺር ምረጽ",
+            "experience": "ደረጃ ተመኩሮ",
+            "experienceLevels": {
+                "none": "የለን",
+                "oneToTwo": "1-2 ዓመት",
+                "threeToFive": "3-5 ዓመት",
+                "fivePlus": "5+ ዓመት"
+            },
+            "skillsList": {
+                "childcare": "ክንክን ቆልዑ",
+                "cooking": "ምብሳል",
+                "cleaning": "ምጽራይ",
+                "laundry": "ምሕጻብ ክዳን",
+                "elderlyCare": "ክንክን ኣረጋውያን",
+                "other": "ካልእ"
+            },
+            "otherSkills": "ካልእ ክእለት",
+            "otherSkillsPlaceholder": "ንኣብነት፡ እንጀራ ክሰርሕ እፈልጥ፡ መሰረታዊ እንግሊዝኛ፡ ወዘተ።"
+        },
+        "preferences": {
+            "title": "ምርጫታት ስራሕ",
+            "workType": "ዓይነት ስራሕ",
+            "workTypes": {
+                "liveIn": "ኣብ ገዛ ምንባር",
+                "liveOut": "ወጻኢ ገዛ ምንባር",
+                "noPreference": "ምርጫ የብለይን"
+            },
+            "preferredLocation": "ዝምረጽ ቦታ ኣብ ኣዲስ",
+            "preferredLocationPlaceholder": "ንኣብነት፡ ቦለ፡ ፒያሳ፡ ወዘተ።",
+            "availability": "ምህላው"
+        },
+        "payment": {
+            "title": "ክፍሊት ምዝገባ",
+            "amount": "ክፍሊት ምዝገባ",
+            "amountValue": "500 ብር",
+            "selectMethod": "ኣገባብ ክፍሊት ምረጽ",
+            "methods": {
+                "telebirr": "TeleBirr",
+                "telecom": "Telecom",
+                "dashen": "ባንክ ዳሽን"
+            },
+            "payNow": "ሕጂ ክፈል",
+            "securePayment": "ክፍሊትካ ውሑስ እዩ",
+            "processing": "ክፍሊት የሰርሕ ኣሎ..."
+        },
+        "confirmation": {
+            "title": "ምዝገባ ተዛዚሙ",
+            "message": "መገለጺኻ ኣብ ትሕቲ ምርመራ እዩ። ብWhatsAppን SMSን ዘመናዊ ሓበሬታ ክትቅበል ኢኻ።",
+            "viewProfile": "መገለጺ ርአ",
+            "close": "ዕጸው",
+            "nextSteps": {
+                "title": "እንታይ ቀጺሉ?",
+                "review": "ጋንታና መገለጺኻ ክምርምር እዩ",
+                "notification": "ምስ ተፈቐደ ምልክታ ክትቅበል ኢኻ",
+                "training": "ናይ እምነት ነጥብኻ ንምዕባይ ናይ ስልጠና ሞዱላት ዛዝም"
+            }
+        }
+    },
+    "errors": {
+        "required": "እዚ ዓውዲ የድሊ እዩ",
+        "invalidPhone": "በጃኻ ቅኑዕ ቁጽሪ ተሌፎን ኣእቱ",
+        "invalidEmail": "በጃኻ ቅኑዕ ኢመይል ኣእቱ",
+        "networkError": "ጌጋ መርበብ። በጃኻ ምትእስሳርካ ኣረጋግጽ።",
+        "genericError": "ገለ ነገር ተጋግዩ። በጃኻ ዳግም ፈትን።"
+    },
+    "security": {
+        "dataSecure": "ዳታኻ ውሑስን ምስጢራዊን እዩ"
+    }
+}
