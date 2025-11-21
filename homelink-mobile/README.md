@@ -10,8 +10,8 @@ A cross-platform mobile application for the HomeLink Addis Workforce Supply Plat
   - Manual form entry
   
 - **Multi-language Support**
-  - English and Amharic interfaces
-  - Easy language switching
+  - English, Amharic, Oromiffa (Oromo), and Tigrinya interfaces
+  - Easy language switching with toggle button
   
 - **Offline Support**
   - Local data persistence
@@ -99,6 +99,8 @@ homelink-mobile/
 ├── locales/                  # i18n translations
 │   ├── en.json               # English translations
 │   ├── am.json               # Amharic translations
+│   ├── om.json               # Oromiffa translations
+│   ├── ti.json               # Tigrinya translations
 │   └── i18n.ts               # i18n configuration
 └── types/                    # TypeScript types
 ```
