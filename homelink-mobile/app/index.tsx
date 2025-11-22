@@ -28,8 +28,18 @@ export default function HomeScreen() {
                     />
                 </Link>
 
+                <Link href="/dashboard" asChild>
+                    <Button
+                        title="Worker Dashboard (Demo)"
+                        onPress={() => { }}
+                        variant="secondary"
+                        fullWidth
+                        style={styles.button}
+                    />
+                </Link>
+
                 <Text style={styles.infoText}>
-                    Already registered? Log in to view your profile and status.
+                    Already registered? Access your dashboard to view profile, training, and messages.
                 </Text>
             </View>
 
